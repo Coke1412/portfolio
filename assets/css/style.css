@@ -1,3 +1,38 @@
+header {
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 400px;
+    background-position: center;
+}
+
+header h1{
+    font-family: 
+}
+
+
 footer i, p{
     color:white;
 }
+
+#parrafo1 {
+    line-height: 40px;
+    font-size: 16px;
+    font-family: 'Open Sans, Sans-Serif';
+   
+}
+
+#parrafo2 {
+    line-height: 40px;
+    font-size: 16px;
+    font-family: 'Open Sans, Sans-Serif';
+}
+
+#titulo1 {
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Open Sans, Sans-Serif';
+    font-weight: 600;
+    
+}
+
