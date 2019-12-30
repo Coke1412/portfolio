@@ -16,6 +16,10 @@ footer i, p{
     color:white;
 }
 
+footer p {
+text-align: left;
+}
+
 #parrafo1 {
     line-height: 40px;
     font-size: 16px;
@@ -37,10 +41,20 @@ footer i, p{
     
 }
 
-
+#contact {
+    font-family: 'OSwald';
+    font-size: 82px;
+    font-weight: 700;
+    
+}
 
 .card-img-top {
     padding-right: 10px;
     padding-left: 10px;
 }
 
+.linea{
+    border-top: 3px solid black;
+    width: 20%;
+    margin: 0 auto;
+}

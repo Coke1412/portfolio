@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:200,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Oswald:200,600,700&display=swap" rel="stylesheet">
     
     
     <!--Font Awesome-->
@@ -70,69 +70,84 @@
     
     <section id="experience">
         <h1 class="text-center">Mi experiencia</h1>
-        <i class="fab fa-empire fa-x4"></i>
-        <p>Stormtrooper</p>
+        
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 my-5">
+                <i class="fab fa-empire fa-5x"></i>
+                <p class="text-dark">Stormtrooper</p>
+                <p class="text-dark">1980-2014</p>
+            </div>
+            
+            <div class="col-md-6 my-5">
+                <i class="fas fa-language fa-5x"></i>
+                <p class="text-dark">Translator</p>
+                <p class="text-dark">2017-2019</p>
+            </div>
+        </div>
+    </div>
     </section>
     
-    <section id="works" class="">
-        <h1 class="text-center bg-success">Mis últimos trabajos</h1>
+    <section id="works">
+        <div class="bg-success">
+            <h1 class="text-center">Mis últimos trabajos</h1>
+            <div class="linea"></div>
+            <br>
+            <hr class="linea">
+            <!--Card group begins-->
+            <div class="card-deck p-5">
+                
+                <!--card1-->
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Meet&Cofee</h5>
+                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</p>
+                    </div>
+                    
+                </div>
+                
+                <!--card2-->
+                
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Iguana</h5>
+                        <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</p>
+                    </div>
+                    
+                </div>
+                
+                <!--card3-->
+                
+                <div class="card">
+                    <img class="card-img-top" src="./assets/img/suricata.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Suricata</h5>
+                        <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <!--card group ends-->
+        </div>
         
-        <!--Card group begins-->
-        <div class="card-group">
-
-            <!--card1-->
-
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Meet&Cofee</h5>
-                <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            
-            <!--card2-->
-            
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Iguana</h5>
-                <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-            
-            <!--card3-->
-            
-            <div class="card">
-              <img class="card-img-top" src="./assets/img/suricata.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Suricata</h5>
-                <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-          </div>
-
-          <!--card group ends-->
-
+        
+        
     </section>
     
     <section id="contact">
-        <h1 class="text-center">Contacto</h1>
-        <p>asdasd</p>
+        <h1 class="text-center my-5">Contacto</h1>
+        <div class="typeform-widget" data-url="https://jorgebarrafuentes.typeform.com/to/GmEWeo" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=GmEWeo&utm_source=typeform.com-15196642-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+        
     </section>
     
-    <footer class="bg-dark text-center">
+    <footer class="bg-info text-center">
         <a href="https://www.github.com"><i class="fab fa-github-square fa-4x"></i></a>
         <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-4x"></i></a>
         <a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-4x"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-4x"></i></a>
         
         <p>Jorge</p>
     </footer>
