@@ -3,11 +3,12 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 400px;
-    background-position: center;
+    height: 800px;
 }
 
 header h1{
-    font-family: 
+    
+    padding-top: 600px;
 }
 
 
@@ -34,5 +35,12 @@ footer i, p{
     font-family: 'Open Sans, Sans-Serif';
     font-weight: 600;
     
+}
+
+
+
+.card-img-top {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
