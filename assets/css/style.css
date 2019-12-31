@@ -1,14 +1,23 @@
-header {
-    background-image: url('../img/bg_hero.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 400px;
-    height: 800px;
+html, body {
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+    overflow-x: hidden;
 }
 
 header h1{
     
-    padding-top: 600px;
+    
+    font-family: 'Oswald';
+    font-size: 10vw;
+    font-weight: 200;
+
+}
+
+header img {
+    max-width: 100%;
+    
 }
 
 
@@ -17,7 +26,7 @@ footer i, p{
 }
 
 footer p {
-text-align: left;
+    text-align: left;
 }
 
 #works {
@@ -28,7 +37,8 @@ text-align: left;
     line-height: 40px;
     font-size: 16px;
     font-family: 'Open Sans, Sans-Serif';
-   
+    
+    
 }
 
 #parrafo2 {
@@ -58,12 +68,64 @@ text-align: left;
     
 }
 
-.card-img-top {
-    padding-top: 0px
+#experiencetitle{
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 25px;
 }
+
+#date {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.hero-image {
+    background-image: url(../img/bg_hero.png);
+    height: 110vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.hero-text {
+    text-align: center;
+    padding-top: 81vw;
+    color:white;
+}
+
 
 .linea{
     border-top: 2px solid white;
-    width: 10%;
+    width: 50%;
     margin: 0 auto;
+}
+
+.linea2{
+    border-top: 2px solid black;
+    width: 8.8%;
+    margin: 0 auto;
+}
+
+.linea3{
+    border-top: 2px solid white;
+    width: 8%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 991px) {
+    header {
+        background-repeat: no-repeat;
+        background-size: cover;
+                
+    }
+
+    .hero-image {
+        height: 50%;
+                
+    }
+
 }

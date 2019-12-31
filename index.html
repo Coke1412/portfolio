@@ -27,7 +27,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse container" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item active">
                     <a class="nav-link text-light" href="#">Sobre mí</a>
@@ -46,161 +46,165 @@
     </nav>
     <!-- Navbar ends -->
     
-    <header class="pt-5">
-        
-        <div class="container">
-            <h1 id="title" class="text-center text-light">Yo soy <br> Magdalena</h1>  
+    <header>
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1 id="title" class="text-center text-light">YO SOY<div class="linea"></div><span class="font-weight-bold">MAGDALENA</span>
+                </h1>  
+            </div>
         </div>
     </header>
-    
-    <section id="text" class="text-center container">
-        <div>
-            <h3 id="titulo1" class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et neque qui mollitia nesciunt libero maiores recusandae expedita iste cupiditate saepe excepturi, labore corrupti!</h3>
-        </div>
         
-        <div class="row">
-            <div class="col-md-6 my-4">                        
-                <p id="parrafo1" class="text-dark mx-4 text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sunt fugiat enim, in optio, obcaecati veniam excepturi iste nulla sint aliquid voluptatibus, dignissimos temporibus iure! Enim reiciendis nemo expedita accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque in assumenda porro ipsam eveniet, dolorum architecto, delectus maxime possimus recusandae quod obcaecati labore magnam aspernatur minus sint illum! Distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim aut nisi voluptatem nemo, saepe rem ducimus odit ratione expedita dolor est! Impedit, quibusdam nemo! Quia iusto consequatur blanditiis ab incidunt! </p>
+        <section id="text" class="text-center container">
+            <div>
+                <h3 id="titulo1" class="my-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et neque qui mollitia nesciunt libero maiores recusandae expedita iste cupiditate saepe excepturi, labore corrupti!</h3>
+                <div class="linea2"></div>
             </div>
-            <div class="col-md-6 my-4">                        
-                <p id="parrafo2" class="text-dark mx-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sunt fugiat enim, in optio, obcaecati veniam excepturi iste nulla sint aliquid voluptatibus, dignissimos temporibus iure! Enim reiciendis nemo expedita accusantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa velit totam perferendis repellendus quos maxime praesentium ut enim blanditiis porro hic eos esse asperiores dignissimos doloremque, explicabo molestias assumenda consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempore adipisci dicta aut, ducimus numquam doloribus? Similique consequuntur omnis amet quae vitae maxime veritatis error vero earum. Accusamus, repellat asperiores.</p>
-            </div>
-        </div>
-    </section>
-    
-    <section id="experience">
-        <h1 class="text-center">Mi experiencia</h1>
-        
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-6 my-5">
-                    <i class="fab fa-empire fa-5x"></i>
-                    <p class="text-dark">Stormtrooper</p>
-                    <p class="text-dark">1980-2014</p>
+            
+            <div class="row">
+                <div class="col-md-6 my-5 p-0">                        
+                    <p id="parrafo1" class="text-dark mx-4 text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sunt fugiat enim, in optio, obcaecati veniam excepturi iste nulla sint aliquid voluptatibus, dignissimos temporibus iure! Enim reiciendis nemo expedita accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque in assumenda porro ipsam eveniet, dolorum architecto, delectus maxime possimus recusandae quod obcaecati labore magnam aspernatur minus sint illum! Distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim aut nisi voluptatem nemo, saepe rem ducimus odit ratione expedita dolor est! Impedit, quibusdam nemo! Quia iusto consequatur blanditiis ab incidunt! </p>
                 </div>
+                <div class="col-md-6 my-5 p-0">                        
+                    <p id="parrafo2" class="text-dark mx-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet sunt fugiat enim, in optio, obcaecati veniam excepturi iste nulla sint aliquid voluptatibus, dignissimos temporibus iure! Enim reiciendis nemo expedita accusantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa velit totam perferendis repellendus quos maxime praesentium ut enim blanditiis porro hic eos esse asperiores dignissimos doloremque, explicabo molestias assumenda consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tempore adipisci dicta aut, ducimus numquam doloribus? Similique consequuntur omnis amet quae vitae maxime veritatis error vero earum. Accusamus, repellat asperiores.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h1 class="text-center">MI EXPERIENCIA</h1>
+            <div class="linea2"></div>
+            
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-6 my-5">
+                        <i class="fab fa-empire fa-10x"></i>
+                        <p id="experiencetitle" class="text-dark">Stormtrooper</p>
+                        <p id="date" class="text-dark">1980 - 2014</p>
+                    </div>
+                    
+                    <div class="col-md-6 my-5">
+                        <i class="fas fa-language fa-10x"></i>
+                        <p id="experiencetitle" class="text-dark">Translator</p>
+                        <p id="date"  class="text-dark">2017 - 2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="works">
+            <div class=>
+                <h1 id="ultimostrabajos" class="text-center text-light pt-5"> MIS ÚLTIMOS TRABAJOS</h1>
+                <div class="linea3"></div>
                 
-                <div class="col-md-6 my-5">
-                    <i class="fas fa-language fa-5x"></i>
-                    <p class="text-dark">Translator</p>
-                    <p class="text-dark">2017-2019</p>
+                
+                <!--Card deck begins-->
+                <div class="card-deck p-5">
+                    
+                    <!--card1-->
+                    <div class="card border-0">
+                        <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Meet&Cofee</h5>
+                            <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!--card2-->
+                    
+                    <div class="card border-0">
+                        <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Iguana</h5>
+                            <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!--card3-->
+                    
+                    <div class="card border-0">
+                        <img class="card-img-top" src="./assets/img/suricata.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Suricata</h5>
+                            <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</p>
+                        </div>
+                        
+                    </div>
+                    
                 </div>
+                <!--card deck ends-->
+                
+                <!--Card deck 2 begins-->
+                <div class="card-deck p-5">
+                    
+                    <!--card4-->
+                    <div class="card border-0">
+                        <img class="card-img-top" src="./assets/img/cuppon.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuppon</h5>
+                            <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <!--card5-->
+                    
+                    <div class="card border-0">
+                        <img class="card-img-top" src="./assets/img/ricomida.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Ricomida</h5>
+                            <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <!--card6-->
+                    
+                    <div class="card border-0">
+                        <img class="card-img-top" src="./assets/img/dmark.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">DMark</h5>
+                            <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!--card deck 2 ends-->
             </div>
-        </div>
-    </section>
-    
-    <section id="works">
-        <div class="">
-            <h1 id="ultimostrabajos" class="text-center text-light pt-5"> MIS ÚLTIMOS TRABAJOS</h1>
-            <div class="linea"></div>
             
             
-            <!--Card deck begins-->
-            <div class="card-deck p-5">
-                
-                <!--card1-->
-                <div class="card border-0">
-                    <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Meet&Cofee</h5>
-                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</p>
-                    </div>
-                    
-                </div>
-                
-                <!--card2-->
-                
-                <div class="card border-0">
-                    <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Iguana</h5>
-                        <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</p>
-                    </div>
-                    
-                </div>
-                
-                <!--card3-->
-                
-                <div class="card border-0">
-                    <img class="card-img-top" src="./assets/img/suricata.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Suricata</h5>
-                        <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</p>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <!--card deck ends-->
             
-            <!--Card deck 2 begins-->
-            <div class="card-deck p-5">
-                
-                <!--card4-->
-                <div class="card border-0">
-                    <img class="card-img-top" src="./assets/img/cuppon.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Cuppon</h5>
-                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</p>
-                    </div>
-                    
-                </div>
-                
-                <!--card5-->
-                
-                <div class="card border-0">
-                    <img class="card-img-top" src="./assets/img/ricomida.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Ricomida</h5>
-                        <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</p>
-                    </div>
-                    
-                </div>
-                
-
-                <!--card6-->
-                
-                <div class="card border-0">
-                    <img class="card-img-top" src="./assets/img/dmark.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">DMark</h5>
-                        <p class="card-text text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</p>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <!--card deck 2 ends-->
-        </div>
+        </section>
+        
+        <section id="contact">
+            <h1 class="text-center my-5">Contacto</h1>
+            <div class="typeform-widget" data-url="https://jorgebarrafuentes.typeform.com/to/GmEWeo" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=GmEWeo&utm_source=typeform.com-15196642-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+            
+        </section>
+        
+        <footer class="bg-info text-center">
+            <a href="https://www.github.com"><i class="fab fa-github-square fa-4x"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-4x"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-4x"></i></a>
+            <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-4x"></i></a>
+            
+            <p>Jorge</p>
+        </footer>
         
         
         
-    </section>
-    
-    <section id="contact">
-        <h1 class="text-center my-5">Contacto</h1>
-        <div class="typeform-widget" data-url="https://jorgebarrafuentes.typeform.com/to/GmEWeo" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=GmEWeo&utm_source=typeform.com-15196642-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
         
-    </section>
-    
-    <footer class="bg-info text-center">
-        <a href="https://www.github.com"><i class="fab fa-github-square fa-4x"></i></a>
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-4x"></i></a>
-        <a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-4x"></i></a>
-        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-4x"></i></a>
+        <!-- Script JQuery 3.4.1-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         
-        <p>Jorge</p>
-    </footer>
-    
-    
-    
-    
-    <!-- Script JQuery 3.4.1-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    
-    <!-- Script Popper JS 1.16.0-->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    
-    <!-- Script Bootstrap 4.4.1-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html>
+        <!-- Script Popper JS 1.16.0-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        
+        <!-- Script Bootstrap 4.4.1-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+    </html>
