@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-       
+    
     <!--Bootstrap CSS 4.2.1-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     
@@ -17,14 +17,14 @@
     
     <!--My style-->
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    
     <title>Jorge | Prueba</title>
 </head>
 <body>
     
     <!-- Navbar begins -->
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="#"><i class="fas fa-music text-light"></i></a>
+        <a class="navbar-brand" href="https://www.youtube.com/watch?v=GFpmJpVPVe4"><i class="fas fa-music text-light"></i></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,8 +55,8 @@
             </div>
         </div>
     </header>
-
-       
+    
+    
     <section id="text" class="text-center container">
         <div>
             <h3 id="titulo1" class="my-4 pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et neque qui mollitia nesciunt libero maiores recusandae expedita iste cupiditate saepe excepturi, labore corrupti!</h3>
@@ -108,10 +108,13 @@
             
             <!--card1-->
             <div class="card border-0 mt-5">
-                <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Meet&Coffee page">
+                <img class="card-img-top" src="./assets/img/meet_coffee.png" alt="Meet&Coffee Page">
                 <div class="card-body">
                     <h5 class="card-title">Meet&Coffee</h5>
                     <p id="cardtext" class="card-text text-dark">Lorem ipsum dolor<span id="cut"> sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</span></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#meetcoffee">
+                        Ver más
+                    </button>
                 </div>
                 
             </div>
@@ -119,10 +122,13 @@
             <!--card2-->
             
             <div class="card border-0 mt-5">
-                <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Iguana page">
+                <img class="card-img-top" src="./assets/img/iguana_page.png" alt="Iguana Page">
                 <div class="card-body">
                     <h5 class="card-title">Iguana</h5>
                     <p id="cardtext" class="card-text text-dark">Lorem ipsum dolor<span id="cut">, sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</span></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#iguana">
+                        Ver más
+                    </button>
                 </div>
                 
             </div>
@@ -134,6 +140,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Suricata</h5>
                     <p id="cardtext" class="card-text text-dark">Lorem ipsum dolor<span id="cut">, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</span></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#suricata">
+                        Ver más
+                    </button>
                 </div>
                 
             </div>
@@ -153,6 +162,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Cuppon</h5>
                     <p id="cardtext" class="card-text text-dark">Lorem ipsum dolor <span id="cut">sit amet consectetur adipisicing elit. Veritatis exercitationem, quidem animi tenetur quisquam, minus, aliquam asperiores nobis nam quam odit officia ad possimus nihil laboriosam incidunt nostrum voluptate placeat.</span></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuppon">
+                        Ver más
+                    </button>
                 </div>
                 
             </div>
@@ -164,6 +176,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Ricomida</h5>
                     <p id="cardtext" class="card-text text-dark">Lorem ipsum dolor,<span id="cut"> sit amet consectetur adipisicing elit. Quasi reiciendis deleniti nostrum eaque hic voluptatibus, provident soluta.</span></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ricomida">
+                        Ver ḿas
+                    </button>
                 </div>
                 
             </div>
@@ -176,6 +191,9 @@
                 <div class="card-body">
                     <h5 class="card-title">DMark</h5>
                     <p id="cardtext" class="card-text text-dark">Lorem ipsum dolor <span id="cut">, sit amet consectetur adipisicing elit. Possimus modi saepe ex veritatis quod doloremque autem voluptas architecto minima unde eius sed ab maiores, repellat magnam aperiam.</span></p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dmark">
+                        Ver más
+                    </button>
                 </div>
                 
             </div>
@@ -185,8 +203,143 @@
         
         
         
-        
     </section>
+
+    <!--modal section begins-->
+    
+    <!-- Modal1 -->
+    <div class="modal fade" id="meetcoffee" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Meet&Cofee Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" class="text-dark">
+                    <img src="./assets/img/meet_coffee.png" class="img-fluid my-3" alt="Meet&Cofee Page">
+                    <p class="text-dark text-justify my-5 mx-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque dolor doloribus, reprehenderit rerum quo perspiciatis ratione fugiat officia nobis, deleniti minima delectus reiciendis mollitia! Aliquid, quam nemo? Temporibus, deserunt? <br><br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor delectus autem sit earum quidem eligendi obcaecati odit labore cupiditate, facilis maxime accusantium numquam omnis odio, eos ut sunt fuga. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat sit iusto fugiat modi voluptatem totam error, maxime suscipit beatae accusantium explicabo quaerat dolores eveniet aliquam laborum dignissimos mollitia maiores.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="iguana" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/img/iguana_page.png" class="img-fluid" alt="Iguana Page">
+                    <p class="text-dark text-justify my-5 mx-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque dolor doloribus, reprehenderit rerum quo perspiciatis ratione fugiat officia nobis, deleniti minima delectus reiciendis mollitia! Aliquid, quam nemo? Temporibus, deserunt? <br><br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor delectus autem sit earum quidem eligendi obcaecati odit labore cupiditate, facilis maxime accusantium numquam omnis odio, eos ut sunt fuga. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat sit iusto fugiat modi voluptatem totam error, maxime suscipit beatae accusantium explicabo quaerat dolores eveniet aliquam laborum dignissimos mollitia maiores.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal3 -->
+    <div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Suricata Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/img/suricata.png" class="img-fluid" alt="Suricata Page">
+                    <p class="text-dark text-justify my-5 mx-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque dolor doloribus, reprehenderit rerum quo perspiciatis ratione fugiat officia nobis, deleniti minima delectus reiciendis mollitia! Aliquid, quam nemo? Temporibus, deserunt? <br><br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor delectus autem sit earum quidem eligendi obcaecati odit labore cupiditate, facilis maxime accusantium numquam omnis odio, eos ut sunt fuga. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat sit iusto fugiat modi voluptatem totam error, maxime suscipit beatae accusantium explicabo quaerat dolores eveniet aliquam laborum dignissimos mollitia maiores.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal4 -->
+    <div class="modal fade" id="cuppon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cuppon Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-dark">
+                    <img src="./assets/img/cuppon.png" class="img-fluid my-3" alt="Cuppon Page">
+                    <p class="text-dark text-justify my-5 mx-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque dolor doloribus, reprehenderit rerum quo perspiciatis ratione fugiat officia nobis, deleniti minima delectus reiciendis mollitia! Aliquid, quam nemo? Temporibus, deserunt? <br><br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor delectus autem sit earum quidem eligendi obcaecati odit labore cupiditate, facilis maxime accusantium numquam omnis odio, eos ut sunt fuga. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat sit iusto fugiat modi voluptatem totam error, maxime suscipit beatae accusantium explicabo quaerat dolores eveniet aliquam laborum dignissimos mollitia maiores.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal5 -->
+    <div class="modal fade" id="ricomida"-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ricomida Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/img/ricomida.png" class="img-fluid" alt="Ricomida Page">
+                    <p class="text-dark text-justify my-5 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque dolor doloribus, reprehenderit rerum quo perspiciatis ratione fugiat officia nobis, deleniti minima delectus reiciendis mollitia! Aliquid, quam nemo? Temporibus, deserunt? <br><br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor delectus autem sit earum quidem eligendi obcaecati odit labore cupiditate, facilis maxime accusantium numquam omnis odio, eos ut sunt fuga. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat sit iusto fugiat modi voluptatem totam error, maxime suscipit beatae accusantium explicabo quaerat dolores eveniet aliquam laborum dignissimos mollitia maiores.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal6 -->
+    <div class="modal fade" id="dmark" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">DMark Page</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./assets/img/dmark.png" class="img-fluid" alt="DMark Page">
+                    <p class="text-dark text-justify my-5 mx-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cumque dolor doloribus, reprehenderit rerum quo perspiciatis ratione fugiat officia nobis, deleniti minima delectus reiciendis mollitia! Aliquid, quam nemo? Temporibus, deserunt? <br><br>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor delectus autem sit earum quidem eligendi obcaecati odit labore cupiditate, facilis maxime accusantium numquam omnis odio, eos ut sunt fuga. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat sit iusto fugiat modi voluptatem totam error, maxime suscipit beatae accusantium explicabo quaerat dolores eveniet aliquam laborum dignissimos mollitia maiores.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--modal section ends-->
     
     <section id="contact">
         <h1 class="text-center pt-5">CONTACTO</h1><div class="linea2"></div>
@@ -194,28 +347,31 @@
     </section>
     
     <footer class="bg-info text-center">       
-            
-            <h1>JORGE</h1>
-            <a href="https://www.github.com/Coke1412/"><i id="icon3" class="fab fa-github-square fa-4x"></i></a>
-            
-            <a href="https://www.linkedin.com/in/jorge-barra-fuentes/"><i id="icon4" class="fab fa-linkedin fa-4x"></i></a>
-            
-            <a href="https://www.twitter.com/Coke1412/"><i id="icon5" class="fab fa-twitter-square fa-4x"></i></a>
-            
-            <a href="https://www.facebook.com/life.is.sound/"><i id="icon6" class="fab fa-facebook-square fa-4x"></i></a>       
-            
-        </footer>
         
+        <h1>JORGE</h1>
+        <a href="https://www.github.com/Coke1412/"><i id="icon3" class="fab fa-github-square fa-4x"></i></a>
         
+        <a href="https://www.linkedin.com/in/jorge-barra-fuentes/"><i id="icon4" class="fab fa-linkedin fa-4x"></i></a>
         
+        <a href="https://www.twitter.com/Coke1412/"><i id="icon5" class="fab fa-twitter-square fa-4x"></i></a>
         
-        <!-- Script JQuery 3.4.1-->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <a href="https://www.facebook.com/life.is.sound/"><i id="icon6" class="fab fa-facebook-square fa-4x"></i></a>       
         
-        <!-- Script Popper JS 1.16.0-->
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        
-        <!-- Script Bootstrap 4.4.1-->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-    </html>
+    </footer>
+    
+    
+    
+    
+    <!-- Script JQuery 3.4.1-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
+    <!-- Script Popper JS 1.16.0-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+    <!-- Script Bootstrap 4.4.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- My Script -->
+    <script src=".//assets/js/script.js"></script>
+</body>
+</html>
