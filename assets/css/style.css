@@ -12,7 +12,7 @@ header h1{
     font-family: 'Oswald';
     font-size: 10vw;
     font-weight: 200;
-
+    
 }
 
 header img {
@@ -81,8 +81,8 @@ footer p {
 }
 
 .hero-image {
-    background-image: url(../img/bg_hero.png);
-    height: 110vw;
+    background-image: url(../img/yo.jpg);
+    height: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,14 +92,14 @@ footer p {
 
 .hero-text {
     text-align: center;
-    padding-top: 81vw;
+    padding-top: 10vw;
     color:white;
 }
 
 
 .linea{
     border-top: 2px solid white;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -115,17 +115,170 @@ footer p {
     margin: 0 auto;
 }
 
+/*first media query*/
 
-@media (min-width: 991px) {
+@media (min-width:0px) and (max-width: 425px) {
+    
+    #text {
+        display: none;
+        
+    }
+    
+    #experience h1 {
+        padding-top:50px;
+        font-size: 10vw;
+        
+    }
+    
+    #ultimostrabajos {
+        font-size: 35px;
+    }
+    
+    .linea {
+        
+    }
+    
+    .linea2 {
+        width: 40vw;
+    }
+    
+    .linea3 {
+        width: 40vw;
+    }
+    
+    footer {
+        height: 75vw;
+        font-size:12px;
+    }
+    
+    footer h1 {
+        font-size: 30px;
+        font-family: 'Oswald';
+        font-weight:600;
+        color: white;
+        padding-top: 45px;
+    }
+    
+    footer i {
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+    
+    #cut {
+        display:none;
+    }
+}
+
+/*second media query*/
+
+@media (min-width: 425px) {
     header {
         background-repeat: no-repeat;
         background-size: cover;
-                
     }
-
+    
+    header h1 {
+        font-size: 8vw;
+    }
+    
+    .hero-text {
+        padding-top: 10vw;
+    }
+    
     .hero-image {
-        height: 50%;
-                
+        height:100%;
+    }
+    
+    #title {
+        padding-bottom: 300px;
+    }
+    
+    .linea {
+        width: 20vw;
+    }
+    
+    .linea2 {
+        width:40vw;
+    }
+    
+    .linea3 {
+        width: 40vw;
+    }
+}
+
+/* third media query */
+
+@media (min-width: 768px) {
+    header {
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    header h1 {
+        font-size: 5vw;
+    }
+    
+    .hero-image {
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+    
+    .hero-text {
+        padding-top: 0vw;
+    }
+    
+    #title {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 500px;
+        font-size: 70px;
+    }
+    
+    .linea {
+        width: 25vw;
     }
 
+    .linea2 {
+        width: 24vw;;
+    }
+
+    .linea3 {
+        width: 24vw;
+
+    }
+    
+    #parrafo1, #parrafo2 {
+        font-size: 20px;
+    }
+    
+    #iconcol1 {
+        padding-top:36px;
+    }
+
+    #icon1 {
+        padding-bottom: 10px;
+    }
+
+    footer {
+        height: 30vw;
+        font-size:12px;
+    }
+    
+    footer h1 {
+        font-size: 30px;
+        font-family: 'Oswald';
+        font-weight:600;
+        color: white;
+        padding-top: 45px;
+    }
+    
+    footer i {
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+    
 }
+
