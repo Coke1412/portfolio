@@ -6,6 +6,8 @@ html, body {
     overflow-x: hidden;
 }
 
+
+
 header h1{
     
     
@@ -37,6 +39,7 @@ footer p {
     line-height: 40px;
     font-size: 16px;
     font-family: 'Open Sans, Sans-Serif';
+    font-weight: 400;
     
     
 }
@@ -45,6 +48,7 @@ footer p {
     line-height: 40px;
     font-size: 16px;
     font-family: 'Open Sans, Sans-Serif';
+    font-weight: 400;
 }
 
 #titulo1 {
@@ -68,9 +72,19 @@ footer p {
     
 }
 
+#experience h1{
+    font-family: 'Oswald';
+    font-weight: 700;
+}
+
+#contact h1 {
+    font-family: 'Oswald';
+    font-weight: 700;
+}
+
 #experiencetitle{
     font-family: 'Oswald';
-    font-weight: 600;
+    font-weight: 700;
     font-size: 25px;
 }
 
@@ -115,9 +129,23 @@ footer p {
     margin: 0 auto;
 }
 
-/*first media query*/
+.card-title{
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+#cardtext{
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+/*first media query (mobile S-M)*/
 
 @media (min-width:0px) and (max-width: 425px) {
+    
+    #aboutmenav{
+        display:none;
+    }
     
     #text {
         display: none;
@@ -147,7 +175,7 @@ footer p {
     }
     
     footer {
-        height: 75vw;
+        height: 70vw;
         font-size:12px;
     }
     
@@ -169,9 +197,9 @@ footer p {
     }
 }
 
-/*second media query*/
+/*second media query (mobile L)*/
 
-@media (min-width: 425px) {
+@media (min-width: 425px) and (max-width:767px) {
     header {
         background-repeat: no-repeat;
         background-size: cover;
@@ -204,11 +232,29 @@ footer p {
     .linea3 {
         width: 40vw;
     }
+    
+    footer {
+        height: 45vw;
+        font-size:12px;
+    }
+    
+    footer h1 {
+        font-size: 30px;
+        font-family: 'Oswald';
+        font-weight:600;
+        color: white;
+        padding-top: 45px;
+    }
+    
+    footer i {
+        padding-top: 20px;
+        margin-right: 15px;
+    }
 }
 
-/* third media query */
+/* third media query (tablet) */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:1023px){
     header {
         background-repeat: no-repeat;
         background-size: cover;
@@ -240,14 +286,14 @@ footer p {
     .linea {
         width: 25vw;
     }
-
+    
     .linea2 {
-        width: 24vw;;
+        width: 20vw;
     }
-
+    
     .linea3 {
         width: 24vw;
-
+        
     }
     
     #parrafo1, #parrafo2 {
@@ -257,11 +303,11 @@ footer p {
     #iconcol1 {
         padding-top:36px;
     }
-
+    
     #icon1 {
         padding-bottom: 10px;
     }
-
+    
     footer {
         height: 30vw;
         font-size:12px;
@@ -281,4 +327,251 @@ footer p {
     }
     
 }
+
+/* fourth media query (laptop) */
+
+@media (min-width:1024px) and (max-width:1440px){
+    header {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55vw;
+        width:100%;
+        
+        
+    }
+    
+    header h1 {
+        font-size: 5vw;
+    }
+    
+    .hero-image {
+        height: 100%;
+        width: 100%;
+        background-position: bottom;
+        
+    }
+    
+    
+    
+    #title {
+        text-align: center;
+        padding-top: 28vw;
+        padding-bottom: 10vw;
+        font-size: 6vw;
+    }
+    
+    
+    .linea {
+        width: 12vw;
+    }
+    
+    .linea2{
+        width: 12vw;
+    }
+    
+    .linea3 {
+        width: 29vw;
+    }
+    
+    #icon1 {
+        padding-top: 40px;
+    }
+    
+    #contact, h1 {
+        font-family: 'Oswald';
+        font-weight: 700;
+        font-size: 52px;
+    }
+    
+    footer {
+        height: 25vw;
+        font-size:20px;
+    }
+    
+    footer h1 {
+        font-size: 60px;
+        font-family: 'Oswald';
+        font-weight:600;
+        color: white;
+        padding-top: 45px;
+    }
+    
+    footer i {
+        font-size: 40px;
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+    
+    #icon3, #icon4, #icon5, #icon6 {
+        font-size: 90px;;
+    }
+}
+
+/* fifth media query (laptop L) */
+
+@media (min-width:1441px) {
+    
+    header {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 55vw;
+        width:100%;
+    }
+    
+    header h1 {
+        font-size: 5vw;
+    }
+    
+    .hero-image {
+        height: 100%;
+        width: 100%;
+        background-position: bottom;
+        
+    }
+    
+    #title {
+        text-align: center;
+        padding-top: 28vw;
+        padding-bottom: 10vw;
+        font-size: 6vw;
+    }
+    
+    
+    .linea {
+        width: 12vw;
+    }
+    
+    .linea2{
+        width: 12vw;
+    }
+    
+    .linea3 {
+        width: 29vw;
+    }
+    
+    #icon1 {
+        padding-top: 40px;
+    }
+    
+    #contact, h1 {
+        font-family: 'Oswald';
+        font-weight: 700;
+        font-size: 52px;
+    }
+    
+    #icon3, #icon4, #icon5, #icon6 {
+        font-size: 90px;;
+    }
+    
+    footer {
+        height: 20vw;
+        font-size:20px;
+    }
+    
+    footer h1 {
+        font-size: 60px;
+        font-family: 'Oswald';
+        font-weight:600;
+        color: white;
+        padding-top: 45px;
+    }
+    
+    footer i {
+        font-size: 400px;
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+}
+
+/* last media query (4K) */
+
+@media (min-width:2560px){
+
+        header{
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:55vw;
+            padding-bottom:150px;
+
+        }
+
+    #title{
+        margin-bottom: 
+    }
+
+    .hero-image{
+        height: 110%;
+        
+    }
+
+    #titulo1 {
+        font-size: 40px;
+                       
+    }
+    
+    .linea2{ 
+        padding-bottom:100px;
+    }
+
+    #parrafo1, #parrafo2{
+        font-size: 1.5vw;
+    }
+
+    #experience{
+        padding-top:200px;
+        padding-bottom: 100px;
+        
+    }
+
+    #experience h1, #ultimostrabajos, #contact h1{
+        font-size:3vw;
+    }
+
+    #icon1{
+        font-size: 10vw;
+    }
+
+    #icon2 {
+        font-size:10vw;
+    }
+
+    #experiencetitle, #date{
+        font-size:2vw;
+    }
+
+    .card-title{
+        
+        font-size: 60px;
+        
+    }
+
+    #cardtext{
+        font-size: 40px; 
+       }
+
+    footer {
+        height: 18vw;
+        
+    }
+    
+    footer h1 {
+        font-size: 80px;
+        font-family: 'Oswald';
+        font-weight:600;
+        color: white;
+        padding-top: 45px;
+    }
+    
+    footer i {
+        font-size: ;
+        padding-top: 40px;
+        margin-right: 40px;
+    }
+
+    #icon3, #icon4, #icon5, #icon6 {
+        font-size: 150px;;
+    }
+
+}
+
 
