@@ -6,9 +6,12 @@ html, body {
     overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 html {
     scroll-behavior: smooth;
 }
+=======
+>>>>>>> e8e48b843e7cfc551da974c63d27f432304abdc7
 
 
 header h1{
