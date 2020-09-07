@@ -1,2 +1,2 @@
 # Test
-Responsive demo web page about me.
+Demo responsive web about me.
