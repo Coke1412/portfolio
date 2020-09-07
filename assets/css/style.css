@@ -1,17 +1,18 @@
 html, body {
     width:100%;
     height:100%;
-    padding:0px;
-    margin:0px;
+    margin: 0px;
     overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 html {
     scroll-behavior: smooth;
 }
-=======
->>>>>>> e8e48b843e7cfc551da974c63d27f432304abdc7
+
+header{
+   
+
+}
 
 
 header h1{
@@ -26,6 +27,14 @@ header h1{
 header img {
     max-width: 100%;
     
+}
+
+video {
+ 
+    background-size: cover;
+    min-height: 100%;
+    max-width:100%;
+    z-index: -1;
 }
 
 
@@ -100,7 +109,7 @@ footer p {
     font-weight: 300;
 }
 
-.hero-image {
+/* .hero-image {
     background-image: url(../img/yo.jpg);
     height: 100vw;
     background-position: center;
@@ -108,7 +117,7 @@ footer p {
     background-size: cover;
     position: relative;
     
-}
+} */
 
 .hero-text {
     text-align: center;

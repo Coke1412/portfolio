@@ -1,4 +1,4 @@
-alert("¡Bienvenido a mi página, sucio humano!")
+
 
 $(function(){
 
