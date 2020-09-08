@@ -50,6 +50,10 @@ footer p {
     background-color: rgb(25, 206, 136);
 }
 
+#icon1, #icon2{
+    animation: pulse 7s infinite;
+}
+
 #parrafo1 {
     line-height: 40px;
     font-size: 16px;
@@ -101,12 +105,26 @@ footer p {
     font-family: 'Oswald';
     font-weight: 700;
     font-size: 25px;
+    animation: pulse 7s infinite;
+}
+
+
+
+  
+@keyframes pulse {
+    40% {
+      color: rgb(25, 206, 136);
+    }
+    80% {
+      color: #FF3396;
+    }
 }
 
 #date {
     font-size: 25px;
     font-family: 'Open Sans';
     font-weight: 300;
+   
 }
 
 /* .hero-image {
@@ -321,6 +339,7 @@ footer p {
     
     #icon1 {
         padding-bottom: 10px;
+      
     }
     
     footer {
