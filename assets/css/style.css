@@ -96,6 +96,14 @@ footer p {
     font-weight: 700;
 }
 
+#experience-main-title{
+    animation: pulse 6s infinite;
+}
+
+#linea-exp {
+    animation: pulse 6s infinite;
+}
+
 #experiencetitle{
     font-family: 'Oswald';
     font-weight: 700;
@@ -148,6 +156,7 @@ footer p {
     border-top: 2px solid black;
     width: 8.8%;
     margin: 0 auto;
+    
 }
 
 .linea3{
