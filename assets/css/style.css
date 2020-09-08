@@ -9,11 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-header{
-   
-
-}
-
 
 header h1{
     
@@ -195,10 +190,7 @@ footer p {
         font-size: 35px;
     }
     
-    .linea {
-        
-    }
-    
+     
     .linea2 {
         width: 40vw;
     }
@@ -529,9 +521,7 @@ footer p {
 
         }
 
-    #title{
-        margin-bottom: 
-    }
+ 
 
     .hero-image{
         height: 110%;
@@ -597,7 +587,6 @@ footer p {
     }
     
     footer i {
-        font-size: ;
         padding-top: 40px;
         margin-right: 40px;
     }
