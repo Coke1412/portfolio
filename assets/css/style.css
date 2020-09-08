@@ -104,6 +104,12 @@ footer p {
 }
 
 
+#date {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    animation: pulse 6s infinite;
+}
 
   
 @keyframes pulse {
@@ -113,13 +119,6 @@ footer p {
     80% {
       color: #FF3396;
     }
-}
-
-#date {
-    font-size: 25px;
-    font-family: 'Open Sans';
-    font-weight: 300;
-   
 }
 
 /* .hero-image {
