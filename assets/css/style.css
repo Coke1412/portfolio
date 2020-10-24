@@ -39,6 +39,8 @@ video {
 }
 
 
+
+
 footer i, p{
     color:white;
 }
@@ -89,6 +91,8 @@ footer p {
     font-family: 'Oswald';
     font-size: 82px;
     font-weight: 700;
+    background-color: white;
+    ;
     
 }
 
@@ -123,6 +127,12 @@ footer p {
     font-family: 'Open Sans';
     font-weight: 300;
     animation: pulse 6s infinite;
+}
+
+#me {
+    border-style: solid;
+    border-width: 6px 6px;
+    border-color: white
 }
 
   
@@ -174,6 +184,10 @@ footer p {
 .card-title{
     font-family: 'Oswald';
     font-weight: 400;
+}
+
+.footer-color {
+    background-color: #ff3396;
 }
 
 #cardtext{
