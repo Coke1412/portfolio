@@ -168,6 +168,12 @@ footer p {
     margin: 0 auto;
 }
 
+.devicon {
+    max-width: 5em;
+    padding-right: 40px;
+}
+
+
 .linea2{
     border-top: 2px solid black;
     width: 8.8%;
